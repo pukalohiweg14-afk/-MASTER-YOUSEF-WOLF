@@ -1,0 +1,29 @@
+name = "panel-silence3"
+main = "panel-silence-worker.js"
+compatibility_date = "2024-11-06"
+compatibility_flags = ["nodejs_compat"]
+workers_dev = true
+
+[[kv_namespaces]]
+binding = "KV"
+id = "2201c97b22f246af9863c188eac94658"
+
+[[durable_objects.bindings]]
+name = "LiveCounter"
+class_name = "LiveCounter"
+
+[exports.LiveCounter]
+type = "durable-object"
+storage = "sqlite"
+
+[vars]
+BRAND_FULL = "MASTER YOUSEF WOLF EMPIRE"
+BRAND_NAME = "MASTER YOUSEF"
+GEMINI_API_KEY = ""
+GEMINI_MODEL = "gemini-1.5-flash"
+PUBLIC_URL = "panel-silence3.panel-silence.workers.dev"
+SUPPORT_URL = "@Kmnbvczx0090 | @vpnstan2"
+TELEGRAM_CHANNEL = "https://t.me/vpnstan1"
+TG_ADMIN_ID = "7300596847"
+TG_BOT_TOKEN = "9194061291:AAFlCj5MqEztwDmrEj-y31WhlK9Hfd3fjM8"
+UUID = "06472f28-8568-4e61-9bd1-8ed64f25acc1"
