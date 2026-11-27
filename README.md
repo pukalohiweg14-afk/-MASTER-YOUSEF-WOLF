@@ -166,7 +166,8 @@ python3 update_kv_branding.py
 
 ## 📜 اطلاعات نسخه
 
-- **app:** Sukot
+- **app:**MSTRYOSEF 
+  
 - **version:** 2.7.0
 - **worker name:** `panel-silence3`
 - **KV namespace ID:** `2201c97b22f246af9863c188eac94658`
